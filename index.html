@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Instalação - Tiny10</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .logo {
+            max-width: 150px;
+            margin: 0 auto 10px;
+            display: block;
+        }
+        h1 {
+            margin: 0;
+        }
+        .content {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .step {
+            margin-bottom: 15px;
+        }
+        .step h2 {
+            color: #4CAF50;
+        }
+        .step ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .step ul li {
+            background-color: #e8f5e9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .note {
+            background-color: #fff3e0;
+            padding: 10px;
+            border-left: 5px solid #ff9800;
+            margin: 15px 0;
+        }
+        .download-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo Otimização Gold" class="logo">
+    <h1>Guia de OTIMIZAÇÃO</h1>
+</header>
+
+<div class="content">
+    <div class="step">
+        <h2>Objetivo</h2>
+        <p>Instalar o Tiny10 no seu PC (Intel Core 2 Duo, 4GB de RAM) para obter um bom desempenho em jogos e tarefas leves.</p>
+    </div>
+
+    <div class="step">
+        <h2>O que você precisa:</h2>
+        <ul>
+            <li>🔧 <strong>Rufus</strong>: Programa para criar o pendrive bootável.</li>
+            <li>💻 <strong>Arquivo Tiny10 x64 23h2.iso</strong>: A imagem do sistema operacional Tiny10.</li>
+            <li>🖱️ <strong>Pendrive de pelo menos 8GB</strong>: Para criar o pendrive de instalação.</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h2>Etapa 1 – Criar o Pendrive de Instalação</h2>
+        <ul>
+            <li>1️⃣ Baixe e Abra o <a href="https://rufus.ie/" class="download-btn" target="_blank">Rufus</a>.</li>
+            <li>2️⃣ Selecione o Pendrive e a ISO:
+                <ul>
+                    <li>Dispositivo: Selecione o seu pendrive.</li>
+                    <li>Selecionar Boot: Escolha o arquivo <strong>tiny10 x64 23h2.iso</strong> que você baixou.</li>
+                    <li>Esquema de Partição: Selecione MBR (para compatibilidade com BIOS mais antigos).</li>
+                    <li>Sistema de Destino: Escolha BIOS ou UEFI-CSM.</li>
+                    <li>Sistema de Arquivos: Deixe como NTFS.</li>
+                </ul>
+            </li>
+            <li>3️⃣ Clique em <strong>Iniciar</strong>. O Rufus pedirá para confirmar que deseja apagar todos os dados do pendrive. Clique em OK.</li>
+            <li>4️⃣ Aguarde até que o processo termine. Quando aparecer a mensagem "Concluído", seu pendrive estará pronto.</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h2>Etapa 2 – Instalar o Tiny10 no seu PC</h2>
+        <ul>
+            <li>1️⃣ Reinicie o PC com o Pendrive Conectado.</li>
+            <li>2️⃣ Ao ligar o PC, pressione a tecla específica para acessar o menu de boot (F12, F9, F8, DEL ou ESC).</li>
+            <li>3️⃣ Selecione o Pendrive para iniciar o sistema de instalação.</li>
+            <li>4️⃣ Escolha o idioma e clique em Avançar.</li>
+            <li>5️⃣ Clique em <strong>Instalar Agora</strong>.</li>
+            <li>6️⃣ Selecione o disco onde deseja instalar o Tiny10 (e apague a partição antiga se quiser uma instalação limpa).</li>
+            <li>7️⃣ Clique em Avançar. O sistema será copiado para o seu disco rígido e, ao final, o PC será reiniciado.</li>
+        </ul>
+    </div>
+
+    <div class="note">
+        <strong>Nota:</strong> Este processo irá formatar seu computador, então faça backup dos seus arquivos antes de começar a instalação!
+    </div>
+
+    <div class="step">
+        <h2>Etapa 3 – Finalizando a Instalação</h2>
+        <p>Após a instalação e reinicialização, o Tiny10 estará pronto para ser usado! O sistema agora estará instalado e funcionando.</p>
+    </div>
+
+    <div class="step">
+        <h2>Links de Download</h2>
+        <ul>
+            <li>📥 <strong>Download do Tiny10 23H2 (x64)</strong>: 
+                <a href="https://archive.org/details/tiny-10-23-h2" class="download-btn" target="_blank">Clique aqui para baixar</a>
+            </li>
+            <li>🛠️ <strong>Download do Rufus</strong>: 
+                <a href="https://rufus.ie/" class="download-btn" target="_blank">Clique aqui para baixar</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h2>Otimização Extrema</h2>
+        <ul>
+            <li>🚫 <strong>Desative serviços desnecessários:</strong> Pressione <code>Win + R</code>, digite <code>services.msc</code> e desative serviços como Windows Update, Superfetch e Fax.</li>
+            <li>📦 <strong>Remova apps e recursos inúteis:</strong> Use o programa <a href="https://github.com/builtbybel/BloatyNosy" target="_blank">BloatyNosy</a> para limpar o sistema de componentes indesejados.</li>
+            <li>🧹 <strong>Use o programa "Win Debloat Tools":</strong> Execute scripts como o Sophia Script para Windows para aplicar otimizações profundas.</li>
+            <li>🎮 <strong>Ative o Modo de Jogo:</strong> Vá em Configurações > Jogos > Modo de Jogo e ative-o para melhorar o desempenho durante os jogos.</li>
+            <li>📉 <strong>Desative efeitos visuais:</strong> Clique com o botão direito em "Este PC" > Propriedades > Configurações avançadas do sistema > Desempenho > Ajustar para obter o melhor desempenho.</li>
+            <li>🚀 <strong>Utilize o software "Timer Resolution":</strong> Para reduzir o input lag em jogos, especialmente em FPS leves.</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h2>Otimização Bônus</h2>
+        <p><strong>PACK bônus de otimização:</strong> <a href="https://www.mediafire.com/file/hw9c44v8h341q5g/Pack_de_Regedits.rar/file" target="_blank">Clique aqui para baixar</a></p>
+    </div>
+</div>
+
+</body>
+</html>
